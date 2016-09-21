@@ -21,7 +21,6 @@ function Diner(name, dishes, addDishes, calcTax) {
 // create a bill object
 function Bill(totalDinertab) {
 	diners.push(bobs_diner, lucys_diner, special_diner);
-
 	this.totalDinertab = totalDinertab;
 	this.total = total;
 
@@ -30,8 +29,13 @@ function Bill(totalDinertab) {
 
 
 // utility functions
-function addDishes() {
+function addDishes(add, dish) {
+	if (){
 
+	}
+	this.add = function () {
+		return dish;
+	}
 }
 
 function calcTax(tax) {
